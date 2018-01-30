@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 
 
 
@@ -16,24 +17,40 @@
   color: #ffffff;
 }
 #menu-0 .mbr-brand__name a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 #header1-1 H1 {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  font-size: 46px;
+  font-size: 72px;
+  text-align: left;
 }
 #header1-1 P {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+#header1-1 SPAN {
+  font-size: 84px;
+  font-family: 'Raleway', sans-serif;
 }
 #header3-c P {
   text-align: left;
 }
 #header3-c H3 {
   text-align: left;
+}
+#content5-1v .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-1v .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-1v .mbr-article {
+  color: #fff;
 }
 #header3-b H3 {
   text-align: left;
@@ -43,6 +60,28 @@
 }
 #content1-1e P {
   text-align: left;
+}
+#content5-1u .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-1u .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-1u .mbr-article {
+  color: #fff;
+}
+#content5-1t .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-1t .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-1t .mbr-article {
+  color: #fff;
 }
 #header3-h H3 {
   text-align: left;
@@ -60,11 +99,14 @@
 #menu-t.mbr-navbar--stuck .mbr-navbar__section {
   background: #000000;
 }
+#menu-t .mbr-navbar__section {
+  background: #000000;
+}
 #menu-t .mbr-navbar__hamburger {
   color: #ffffff;
 }
 #menu-t .mbr-brand__name a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 
@@ -92,6 +134,23 @@
   color: #ffffff;
 }
 #menu-11 .mbr-brand__name a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+#menu-20 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-20.mbr-navbar--stuck .mbr-navbar__section {
+  background: #000000;
+}
+#menu-20 .mbr-navbar__section {
+  background: #000000;
+}
+#menu-20 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-20 .mbr-brand__name a {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
