@@ -10,7 +10,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 3,
+    "uniqCompNum": 6,
     "versionPublish": "4.6.3"
   },
   "pages": {
@@ -30,7 +30,7 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
+              "background": "#000000"
             },
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
@@ -38,16 +38,16 @@
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#ffffff",
+            "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">KONTAKT<br></a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">BIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">KONTAKT<br></a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
@@ -65,7 +65,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Petra Seeger KÜNSTLERIN</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Petra Seeger KÜNSTLERIN</a>",
           "_tags": [
             "Theme"
           ],
@@ -80,10 +80,10 @@
             "showButtons": true,
             "showArrow": true,
             "contentAlign": "left",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/screen%20shot%202018-01-30%20at%2015.29.21-42x34.png",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-483-1050x1024.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -91,11 +91,11 @@
             },
             "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": "0.7"
+            "overlayOpacity": "0"
           },
           "title": "Petra Seeger KÜNSTLERIN",
           "text": "Dies ist die Webseite der Künstlerin Petra Seeger. Hier können eine Selektion der Werke, Ausstellungen und Informationen zum Lebenslauf eingesehen werden.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">KONTAKT</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BIO</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">KONTAKT</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BIO</a>",
           "_tags": [
             "Theme"
           ],
@@ -103,99 +103,36 @@
           "_anchor": "header1-1",
           "_styles": {
             "H1": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "P": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           }
         },
         {
           "_params": {
-            "fullWidth": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "fullWidth": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "noGutter": false,
             "showText": false,
             "showBullets": true,
             "bgColor": "#ffffff",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/l1080630-1875x1812.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1080630-1875x1812-800x773.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1140159-1303x1354.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140159-1303x1354-800x831.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1140151-1295x1383.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140151-1295x1383-800x854.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1140256-2000x582.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140256-2000x582-800x232.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1130540-1344x2045.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1130540-1344x2045-800x1217.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1130040-2000x1954.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1130040-2000x1954-800x781.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1130021-2000x1976.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1130021-2000x1976-800x790.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/l1130019-2000x2007.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1130019-2000x2007-800x802.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-164-1280x905.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-164-1280x905-800x565.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-256-1280x822.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-256-1280x822-800x513.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-545-596x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-545-596x1024-596x1024.jpg",
-                "alt": "",
+                "image": "@PROJECT_PATH@/assets/images/img-404-329x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-404-329x1024-329x1024.jpg",
+                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-398-420x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-398-420x1280-420x1280.jpg",
+                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
+                "caption": "Type caption here",
+                "active": false
               }
             ]
           },
@@ -205,6 +142,34 @@
           ],
           "_name": "gallery1",
           "_anchor": "gallery1-2"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-5"
         }
       ]
     }
