@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Petra",
-    "currentPage": "impressum.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 76,
+    "uniqCompNum": 78,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -509,6 +509,22 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-1p"
+        },
+        {
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-24"
+        },
+        {
+          "text": "<p>Die hier dargestellten Werke werden in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b>Link</b> für E-mail Updates anmelden.&nbsp;</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-25"
         },
         {
           "_params": {
