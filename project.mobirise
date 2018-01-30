@@ -155,7 +155,7 @@
         {
           "_inherit": "gallery1",
           "_params": {
-            "fullWidth": true,
+            "fullWidth": false,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
