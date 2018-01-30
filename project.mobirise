@@ -519,7 +519,7 @@
           "_anchor": "content1-24"
         },
         {
-          "text": "<p>Die hier dargestellten Werke werden in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b>Link</b> für E-mail Updates anmelden.&nbsp;</p>",
+          "text": "<p>Die hier dargestellten Werke werden in unregelmäßigen Abständen erneuert.&nbsp;</p><p>Sie können sich unter diesem <b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdQ2XVaUvmtpgQcTbMhDSwKZbZQPXD4JInFzpcLly0JC6CIGw/viewform?usp=sf_link\">Link</a></b> für E-mail Updates anmelden.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
