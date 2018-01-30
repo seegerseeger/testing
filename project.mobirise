@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Petra",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 46,
+    "uniqCompNum": 65,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -35,7 +35,9 @@
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#000000"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#000000"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             },
@@ -126,10 +128,10 @@
         },
         {
           "_params": {
-            "showMeta": true
+            "showMeta": false
           },
           "title": "OHNE TITEL",
-          "meta": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
@@ -145,44 +147,58 @@
           }
         },
         {
+          "_inherit": "gallery1",
           "_params": {
-            "fullWidth": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "fullWidth": true,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
-            "bgColor": "#ffffff",
             "images": [
               {
                 "image": "@PROJECT_PATH@/assets/images/img-398-329x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-398-329x1024-329x1024.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "alt": "",
+                "caption": "Type caption here",
                 "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-404-329x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-404-329x1024-329x1024.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "alt": "",
+                "caption": "Type caption here",
                 "active": true
               }
             ]
           },
-          "articleLayout": false,
+          "articleLayout": true,
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-2"
+          "_name": "gallery2",
+          "_anchor": "gallery2-1c"
+        },
+        {
+          "text": "<p>ohne Titel | 30x65cm | Acryl/Kreide auf Papier</p><p>ohne Titel | 30x65cm | Acryl/Kreide auf Papier</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1q"
+        },
+        {
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1f"
         },
         {
           "_params": {
-            "showMeta": true
+            "showMeta": false
           },
           "title": "SERIE BLAU",
-          "meta": "Serie Blau 3 | 30x30cm | Acryl auf Leinwand<br>Serie Blau 4 | 30x30cm | Acryl auf Leinwand<br>",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
@@ -198,110 +214,103 @@
           }
         },
         {
+          "_inherit": "gallery1",
           "_params": {
-            "fullWidth": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "fullWidth": false,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
-            "bgColor": "#ffffff",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-15-1006x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "image": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814-800x814.jpg",
+                "alt": "",
+                "caption": "Type caption here",
                 "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-19-1006x1024.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-19-1006x1024-800x814.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "alt": "",
+                "caption": "Type caption here",
                 "active": true
               }
             ]
           },
-          "articleLayout": false,
+          "articleLayout": true,
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-6"
+          "_name": "gallery2",
+          "_anchor": "gallery2-1b"
         },
         {
-          "_inherit": "msg-box5",
+          "text": "<p>Serie Blau 3 | 30x30cm | Acryl auf Leinwand</p><p>Serie Blau 4 | 30x30cm | Acryl auf Leinwand</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1e",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": "55",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": true
+          },
+          "title": "FELDER",
+          "meta": "By John Smith posted July 30, 2015",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1n"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "outside": false
           },
           "media": {
             "image": {
               "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/l1130040-1399x1368-800x782.jpg",
               "link": "",
               "alt": "",
               "title": ""
             },
             "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "title": "FELDER",
-          "text": "<p>140x140cm, Bleistift/Ölfarbe auf Papier</p>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
           "_tags": [
             "Theme"
           ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#000000",
-              "text-align": "left"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            },
-            ".mbr-article P": {
-              "color": "#000000",
-              "text-align": "left"
-            }
-          },
-          "headerAlign": "left",
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-9"
+          "_name": "image2",
+          "_anchor": "image2-1o"
+        },
+        {
+          "text": "<p>Felder | 140x140cm | Bleistift/Ölfarbe auf Papier</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1r"
+        },
+        {
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1s"
         },
         {
           "_params": {
@@ -324,37 +333,35 @@
           "_anchor": "header3-h"
         },
         {
+          "_inherit": "gallery1",
           "_params": {
-            "fullWidth": true,
-            "paddingTop": "1",
-            "paddingBottom": "4",
+            "fullWidth": false,
             "noGutter": false,
             "showText": false,
             "showBullets": true,
-            "bgColor": "#ffffff",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/l1140151-1295x1383.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140151-1295x1383-800x854.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "image": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854-800x854.jpg",
+                "alt": "",
+                "caption": "Type caption here",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/l1140159-1295x1383.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/l1140159-1295x1383-800x854.jpg",
-                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "image": "@PROJECT_PATH@/assets/images/l1140151-1295x1383.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/l1140151-1295x1383-800x854.jpg",
+                "alt": "",
+                "caption": "Type caption here",
                 "active": true
               }
             ]
           },
-          "articleLayout": false,
+          "articleLayout": true,
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-g"
+          "_name": "gallery2",
+          "_anchor": "gallery2-1p"
         },
         {
           "_params": {

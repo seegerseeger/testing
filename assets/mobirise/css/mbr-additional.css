@@ -9,6 +9,9 @@
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
   background: #000000;
 }
+#menu-0 .mbr-navbar__section {
+  background: #000000;
+}
 #menu-0 .mbr-navbar__hamburger {
   color: #ffffff;
 }
@@ -38,18 +41,7 @@
 #header3-b P {
   text-align: left;
 }
-#msg-box4-9 .mbr-header__text {
-  color: #000000;
-  text-align: left;
-}
-#msg-box4-9 .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-9 .mbr-article {
-  color: #ffffff;
-}
-#msg-box4-9 .mbr-article P {
-  color: #000000;
+#content1-1e P {
   text-align: left;
 }
 #header3-h H3 {
