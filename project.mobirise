@@ -10,8 +10,9 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 6,
-    "versionPublish": "4.6.3"
+    "uniqCompNum": 9,
+    "versionPublish": "4.6.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -116,22 +117,22 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "noGutter": false,
-            "showText": false,
+            "showText": true,
             "showBullets": true,
             "bgColor": "#ffffff",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-404-329x1024.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-404-329x1024-329x1024.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-398-329x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-398-329x1024-329x1024.jpg",
                 "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "Type caption here",
+                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
                 "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-398-420x1280.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-398-420x1280-420x1280.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-404-329x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-404-329x1024-329x1024.jpg",
                 "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
-                "caption": "Type caption here",
+                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
                 "active": false
               }
             ]
@@ -145,9 +146,41 @@
         },
         {
           "_params": {
+            "fullWidth": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "noGutter": false,
             "showText": true,
-            "outside": false,
-            "bgColor": "#252525"
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-15-1006x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-15-1006x1024-800x814.jpg",
+                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
+                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-19-1006x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-19-1006x1024-800x814.jpg",
+                "alt": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier",
+                "caption": "ohne Titel | 30x65cm | Acryl/Kreide auf Papier<br>",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-6"
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false
           },
           "media": {
             "image": {
@@ -164,12 +197,12 @@
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "Felder | 140x140cm | Bleistift/Ölfarbe auf Papier<br>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
           "_tags": [
             "Theme"
           ],
-          "_name": "image1",
-          "_anchor": "image1-5"
+          "_name": "image2",
+          "_anchor": "image2-8"
         }
       ]
     }
