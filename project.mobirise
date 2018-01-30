@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 78,
+    "uniqCompNum": 88,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png"
   },
@@ -133,6 +133,14 @@
           }
         },
         {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2f"
+        },
+        {
           "_params": {
             "showMeta": false
           },
@@ -192,6 +200,14 @@
           "_anchor": "content1-1q"
         },
         {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2e"
+        },
+        {
           "_inherit": "msg-box3",
           "_styles": {
             ".mbr-header .mbr-header__text": {
@@ -237,6 +253,14 @@
           "meta": "By John Smith posted July 30, 2015",
           "_name": "content5",
           "_anchor": "content5-1v"
+        },
+        {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2d"
         },
         {
           "text": "",
@@ -311,6 +335,14 @@
           }
         },
         {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2c"
+        },
+        {
           "_inherit": "msg-box3",
           "_styles": {
             ".mbr-header .mbr-header__text": {
@@ -356,6 +388,14 @@
           "meta": "By John Smith posted July 30, 2015",
           "_name": "content5",
           "_anchor": "content5-1u"
+        },
+        {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2b"
         },
         {
           "_params": {
@@ -405,6 +445,14 @@
           "_anchor": "content1-1r"
         },
         {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-29"
+        },
+        {
           "_inherit": "msg-box3",
           "_styles": {
             ".mbr-header .mbr-header__text": {
@@ -452,19 +500,19 @@
           "_anchor": "content5-1t"
         },
         {
-          "text": "",
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1s"
+          "_anchor": "content1-28"
         },
         {
           "_params": {
-            "showMeta": true
+            "showMeta": false
           },
           "title": "SERIE \"ANBEGINN\"",
-          "meta": "12x16cm | Bleistift/Ölfarbe auf Papier<br>12x16cm | Bleistift/Ölfarbe auf Papier<br><br>",
+          "meta": "<br><br>",
           "_tags": [
             "Theme"
           ],
@@ -509,6 +557,22 @@
           ],
           "_name": "gallery2",
           "_anchor": "gallery2-1p"
+        },
+        {
+          "text": "<p>12x16cm | Bleistift/Ölfarbe auf Papier</p><p>12x16cm | Bleistift/Ölfarbe auf Papier</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-26"
+        },
+        {
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2a"
         },
         {
           "text": "",
